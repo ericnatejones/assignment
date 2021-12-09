@@ -1,0 +1,26 @@
+.Switzerland {
+    height: 400px;
+    width: 400px;
+    margin: left;
+    background: #ff0002;
+    margin: left;
+}
+.color-one {
+    display:inline-block;
+    width: 90px;
+    height:250px;
+    background-color: #ffffff;
+    position:absolute;
+    left: 158px;
+    top: 150px;
+
+}
+.color-two {
+    width: 250px;
+    height: 90px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 80px;
+    top: 225px;
+
+}

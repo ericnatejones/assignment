@@ -1,0 +1,26 @@
+.Sweden {
+    height: 400px;
+    width: 640px;
+    margin: left;
+    background: #0269A6;
+    margin: left;
+    border-style: solid;
+    border-color: #685c5c;
+}
+.color-one {
+    display:inline-block;
+    width: 640px;
+    height:80px;
+    background-color: #FECC00;
+    position:absolute;
+    left: 11px;
+    top: 245px;
+}
+.color-two {
+    width: 80px;
+    height: 400px;
+    background-color: #FECC00;
+    position: absolute;
+    left: 210px;
+    top: 83px;
+}

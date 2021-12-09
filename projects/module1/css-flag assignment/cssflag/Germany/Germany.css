@@ -1,0 +1,31 @@
+
+.Germany {
+    height: 400px;
+    width: 666.666px;
+    margin: left;
+    background: #ffffff;
+}
+.color-one {
+    display:inline-block;
+    width: 666px;
+    height: 133.3px;
+    background-color: #000000;
+}
+.color-two {
+    display:inline-block;
+    width: 666px;
+    height: 133.3px;
+    background-color: #DE0002;
+    position: absolute;
+    left: 8px;
+    top: 213px;
+}
+.color-three {
+    display:inline-block;
+    width: 666px;
+    height: 133.3px;
+    background-color: #ffce00;
+    position:absolute;
+    left: 8px;
+    top: 345px;
+}

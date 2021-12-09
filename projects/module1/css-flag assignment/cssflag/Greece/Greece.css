@@ -1,0 +1,59 @@
+.Greece {
+    height: 400px;
+    width: 600px;
+    margin: left;
+    background: #0E5FAE;
+    margin: left;
+    border-style: solid;
+    border-color: #f0e8e8;
+}
+.cross1 {
+    width: 44px;
+    height: 224px;
+    background-color:#ffffff;
+    position: absolute;
+    left: 110px;
+    top: 82px;
+
+}
+.cross2 {
+    width: 250px;
+    height: 44px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 11px;
+    top: 173px;
+
+}
+.one {
+    width: 350px;
+    height: 44px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 261px;
+    top: 128px;
+}
+.two {
+    width: 400px;
+    height: 44px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 261px;
+    top: 217px;
+}
+.three {
+    width: 600px;
+    height: 44px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 11px;
+    top: 306px;
+}
+.four {
+    width: 600px;
+    height: 44px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 11px;
+    top: 394px;
+}

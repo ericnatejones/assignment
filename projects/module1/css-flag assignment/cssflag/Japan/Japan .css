@@ -1,0 +1,19 @@
+.Japan {
+    height: 400px;
+    width: 600px;
+    margin: left;
+    background: #ffffff;
+    margin: left;
+    border-style: solid;
+    border-color: #f0e8e8;
+}
+.circle {
+    display:inline-block;
+    background:  #BC022C;
+    border-radius: 80%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 180px;
+    left: 200px;
+}

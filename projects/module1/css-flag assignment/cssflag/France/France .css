@@ -1,0 +1,33 @@
+.France {
+    
+    height: 400px;
+    width: 600px;
+    margin: left;
+    border-style: solid;
+    border-color: #f0e8e8;
+}
+
+.top {
+    width: 200px;
+    height: 400px;
+    background-color: #002495;
+    position: absolute;
+    Top: 82px;
+    left: 12px;
+}
+.middle {
+    width: 200px;
+    height: 400px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 208px;
+    top: 82px;
+}
+.bottom {
+    width: 200px;
+    height: 400px;
+    background-color: #ed2938;
+    position:absolute;
+    left: 412px;
+    top: 82px;
+}

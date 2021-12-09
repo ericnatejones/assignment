@@ -1,0 +1,37 @@
+.Tonga {
+    height: 300px;
+    width: 600px;
+    margin: left;
+    background: #ff0002;
+    margin: left;
+    border-style: solid;
+    border-color: #f0e8e8;
+}
+.color-one {
+    display:inline-block;
+    width: 250px;
+    height:150px;
+    background-color: #ffffff;
+    position:absolute;
+    left: 11px;
+    top: 83px;
+
+}
+.color-two {
+    width: 38px;
+    height: 115px;
+    background-color: #ff0002;
+    position: absolute;
+    left: 109px;
+    top: 100px;
+
+}
+.color-three {
+    width: 115px;
+    height: 38px;
+    background-color: #ff0002;
+    position: absolute;
+    left: 72px;
+    top: 137px;
+
+}

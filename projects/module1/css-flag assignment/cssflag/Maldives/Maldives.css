@@ -1,0 +1,26 @@
+.Maldives {
+    height: 400px;
+    width: 600px;
+    margin: left;
+    background: #D31133;
+    margin: left;
+    border-style: solid;
+    border-color: #f0e8e8;
+}
+.box {
+    height: 210px;
+    width: 420px;
+    background-color: #007E39;
+    position: absolute;
+    left: 100px;
+    top:175px;
+}
+.moon {
+    height: 130px;
+    width: 130px;
+    box-shadow: -22px 0px 0 3px #ffffff;
+    border-radius: 60%;
+    position: absolute;
+    top: 45px;
+    left: 165px;
+}

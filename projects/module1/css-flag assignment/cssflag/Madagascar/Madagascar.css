@@ -1,0 +1,36 @@
+.Madagascar {
+    height: 400px;
+    width: 600px;
+    margin: left;
+    background: #ffffff;
+    margin: left;
+    border-style: solid;
+    border-color: #f0e8e8;
+}
+.color-one {
+    width: 200px;
+    height:401px;
+    background-color:#ffffff;
+    float: left;
+    position:absolute;
+    top: 82px;
+    left: 10px;
+
+}
+.color-two {
+    width: 401px;
+    height: 200px;
+    background-color: #fc3e32;
+    position: absolute;
+    left: 210px;
+    top: 83px;
+
+}
+.color-three {
+    width: 401px;
+    height: 200px;
+    background-color: #007e39;
+    position: absolute;
+    left: 210px;
+    top: 283px;
+}

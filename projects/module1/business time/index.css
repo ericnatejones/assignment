@@ -1,0 +1,485 @@
+/* desktop screen */
+
+.bg-img {
+  /* The image used */
+  background-image: url("image/1.jpg");
+
+  min-height:480px;
+
+  /* Center and scale the image nicely */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 1000px 400px;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+/* Position the navbar container inside the image */
+#container {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  top: 140px;
+  height: 100px;
+  left: 45px;
+  margin: 20 40px;
+  
+  
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: none;
+}
+
+/* Navbar links */
+.topnav a {
+  color: #ffffff;
+  text-align: center;
+  padding: 24px 86px;
+  text-decoration: none;
+  font-size: 40px;
+  
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+div.baking {
+  font-family: "Arial";
+  text-indent: 50px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 20px; 
+  position: relative;
+}
+
+.baking {
+  background-color: lightgrey;
+  height:150px;
+  width:950px;
+  border-style: double;
+  padding: 0 20px;
+  position: relative;
+  bottom: 45px;
+  left: 195px;
+}
+
+
+/* FEATURES */
+.circle1 {
+  display:inline-block;
+  /* Center and scale the image nicely */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-image: url("image/2.jpg");
+  border-radius: 80%;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  left: 195px;
+  top: 0px;
+}
+.circle1 a {
+  color: #8a7e7e;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
+  top: 320px;
+  left: 40px;
+  
+}
+
+.circle1 a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.circle2 {
+  display:inline-block;
+  /* Center and scale the image nicely */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-image: url("image/7.jpg");
+  background-size: 300px 300px;
+  border-radius: 80%;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 00px;
+  left: 240px;
+}
+.circle2 a {
+  color: #8a7e7e;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
+  top: 320px;
+  left: 45px;
+  
+}
+
+.circle2 a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.circle3 {
+  display:inline-block;
+  /* Center and scale the image nicely */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-image: url("image/8.jpg");
+  background-size: 300px 300px;
+  border-radius: 80%;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 00px;
+  left: 285px;
+  
+}
+.circle3 a {
+  color: #8a7e7e;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
+  top: 320px;
+  left: 65px;
+  
+}
+
+.circle3 a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+/*Phone screen*/
+
+@media only screen and (max-width: 619px) {
+
+#container {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  top: 110px;
+  height: 130px;
+  left: 0px;
+  margin:  20 40px;
+      
+  } 
+  
+
+/* Navbar links */
+.topnav a {
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 36px;
+  text-decoration: none;
+  font-size: 40px;
+  left: 0px;
+  
+
+
+}
+
+div.baking {
+  font-family: "Arial";
+  text-indent: 50px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 20px; 
+  position: relative;
+}
+
+.baking {
+  background-color: lightgrey;
+  height:265px;
+  width:535px;
+  border-style: double;
+  padding: 0 20px;
+  position: absolute;
+  bottom: 45px;
+  left: 0px;
+
+  }
+.circle1 {
+  display:inline-block;
+  /* Center and scale the image nicely */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-image: url("image/2.jpg");
+  border-radius: 80%;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  left: 155px;
+  top: 0px;
+
+  }
+.circle2 {
+    display:inline-block;
+    /* Center and scale the image nicely */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url("image/7.jpg");
+    background-size: 300px 300px;
+    border-radius: 80%;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 80px;
+    left: 155px;
+  }
+.circle3 {
+    display:inline-block;
+    /* Center and scale the image nicely */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url("image/8.jpg");
+    background-size: 300px 300px;
+    border-radius: 80%;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 170px;
+    left: 155px;
+    
+  }
+}
+
+/*Tablet screen*/
+@media (min-width: 620px) and  (max-width: 844px){
+  
+  #container {
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-end;
+    top: 100px;
+    height: 120px;
+    left: 0px;
+   
+        
+    } 
+    /* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: none;
+}
+
+/* Navbar links */
+.topnav a {
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 50px;
+  text-decoration: none;
+  font-size: 40px;
+  
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+    
+  .baking {
+    background-color: lightgrey;
+    height:185px;
+    width:783px;
+    border-style: double;
+    padding: 0 20px;
+    position: relative;
+    bottom: 45px;
+    left: 0px;
+  
+    }
+  .circle1 {
+    display:inline-block;
+    /* Center and scale the image nicely */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url("image/2.jpg");
+    border-radius: 80%;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 5px;
+    top: 0px;
+  
+    }
+  .circle2 {
+      display:inline-block;
+      /* Center and scale the image nicely */
+      background-position: top;
+      background-repeat: no-repeat;
+      background-image: url("image/7.jpg");
+      background-size: 300px 300px;
+      border-radius: 80%;
+      width: 300px;
+      height: 300px;
+      position: relative;
+      top: 0px;
+      left: 225px;
+    }
+  .circle3 {
+      display:inline-block;
+      /* Center and scale the image nicely */
+      background-position: top;
+      background-repeat: no-repeat;
+      background-image: url("image/8.jpg");
+      background-size: 300px 300px;
+      border-radius: 80%;
+      width: 300px;
+      height: 300px;
+      position: relative;
+      top: 60px;
+      left: 265px;
+      
+    }
+  
+  
+  }
+
+  
+  @media (min-width: 846px) and  (max-width: 927px){
+  #container {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    top: 100px;
+    height: 130px;
+    
+    left: 0px;
+    margin: 20 40px;
+        
+    } 
+  .baking {
+    background-color: lightgrey;
+    height:185px;
+    width:780px;
+    border-style: double;
+    padding: 0 20px;
+    position: relative;
+    bottom: 45px;
+    left: 0px;
+  
+    }
+  .circle1 {
+    display:inline-block;
+    /* Center and scale the image nicely */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url("image/2.jpg");
+    border-radius: 80%;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+  
+    }
+  .circle2 {
+      display:inline-block;
+      /* Center and scale the image nicely */
+      background-position: top;
+      background-repeat: no-repeat;
+      background-image: url("image/7.jpg");
+      background-size: 300px 300px;
+      border-radius: 80%;
+      width: 300px;
+      height: 300px;
+      position: relative;
+      top: 0px;
+      left: 220px;
+    }
+  .circle3 {
+      display:inline-block;
+      /* Center and scale the image nicely */
+      background-position: top;
+      background-repeat: no-repeat;
+      background-image: url("image/8.jpg");
+      background-size: 300px 300px;
+      border-radius: 80%;
+      width: 300px;
+      height: 300px;
+      position: relative;
+      top: 50px;
+      left: 275px;
+      
+    }
+  
+  
+  }
+
+  @media (min-width: 865px) and  (max-width: 1200px){
+
+    .baking {
+      background-color: lightgrey;
+      height:185px;
+      width:955px;
+      border-style: double;
+      padding: 0 20px;
+      position: relative;
+      bottom: 45px;
+      left: 55px;
+    
+      }
+    .circle1 {
+      display:inline-block;
+      /* Center and scale the image nicely */
+      background-position: top;
+      background-repeat: no-repeat;
+      background-image: url("image/2.jpg");
+      border-radius: 80%;
+      width: 300px;
+      height: 300px;
+      position: relative;
+      left: 55px;
+      top: 0px;
+    
+      }
+    .circle2 {
+        display:inline-block;
+        /* Center and scale the image nicely */
+        background-position: top;
+        background-repeat: no-repeat;
+        background-image: url("image/7.jpg");
+        background-size: 300px 300px;
+        border-radius: 80%;
+        width: 300px;
+        height: 300px;
+        position: relative;
+        top: 0px;
+        left: 105px;
+      }
+    .circle3 {
+        display:inline-block;
+        /* Center and scale the image nicely */
+        background-position: top;
+        background-repeat: no-repeat;
+        background-image: url("image/8.jpg");
+        background-size: 300px 300px;
+        border-radius: 80%;
+        width: 300px;
+        height: 300px;
+        position: relative;
+        top: 0px;
+        left: 155px;
+        
+      }
+    
+    
+    }

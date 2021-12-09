@@ -1,0 +1,55 @@
+html, body {
+
+    padding: 0px;
+    margin: 10px;
+    
+}
+
+
+
+#container {
+   
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat( 3, 100px);
+    grid-gap: 15px;
+    
+}
+
+
+
+#box1 {
+    background-color: #c90404;
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    border-radius: 10px;
+    
+}
+
+#box2 {
+    background-color: rgb(14, 62, 207);
+    grid-column: 1 / 3;
+    grid-row: 2 / 5;
+    border-radius: 10px;
+}
+
+#box3 {
+    background-color: #0cac19;
+    grid-column: 3 / 5;
+    grid-row: 2 / 3;
+    border-radius: 10px;
+}
+
+#box4 {
+    background-color: #5f145f;
+    grid-column: 4 / 5;
+    grid-row: 3 / 5;
+    border-radius: 10px;
+}
+
+#box5 {
+    background-color: #5f145f;
+    grid-column: 3 / 4;
+    grid-row: 3 / 5;
+    border-radius: 10px;
+}

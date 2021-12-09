@@ -1,0 +1,38 @@
+.Gambia {
+    height: 400px;
+    width: 600px;
+    margin: left;
+    background: #ffffff;
+    margin: left;
+    border-style: solid;
+    border-color: #f0e8e8;
+}
+.color-one {
+    display:inline-block;
+    width: 600px;
+    height:120px;
+    background-color: #CE1127;
+    position:absolute;
+    left: 10px;
+    top: 83px;
+
+}
+.color-two {
+    display:inline-block;
+    width: 600px;
+    height: 100px;
+    background-color: #0D1D8B;
+    position: absolute;
+    left: 10px;
+    top: 230px;
+
+}
+.color-third {
+    display:inline-block;
+    width: 600px;
+    height: 120px;
+    background-color: #3B7827;
+    position: absolute;
+    left: 10px;
+    top: 363px;
+}
