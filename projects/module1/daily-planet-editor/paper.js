@@ -9,29 +9,28 @@ just fix the existing ones.
 
 // Written by Kent, Clark
 
-var enemies=["Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"];
+var enemies = ["Lex", "Batman", "Darkseid", "Brainiac", "General Zod", "Doomsday"];
 
-function whoWins(is_there_kryptonite, enemy_name){
-    if (!is_there_kryptonite){
+function whoWins(isThereKryptonite, enemyName){
+    if (!isThereKryptonite){
         return "Superman beats " + enemy_name + ", of course";
-    }
-    else{
-        return "Depends on how quick Superman can get rid of the Kryptonite. "+ enemy_name +" could possibly win this one.";
+    } else {
+        return "Depends on how quick Superman can get rid of the Kryptonite. " + enemy_name + " could possibly win this one.";
     }
 }
 
 for (var i = 0; i < enemies.length; i++){ 
 
-    var is_there_kryptonite;
+    var isThereKryptonite;
 
         if (i % 2 === 0) {
-        is_there_kryptonite = true;
+        isThereKryptonite = true;
         }
 
         else {
-        is_there_kryptonite = false;
+        isThereKryptonite = false;
         }
-    console.log(whoWins(is_there_kryptonite, enemies[i]));
+    console.log(whoWins(isThereKryptonite, enemies[i]));
 }
 
 function howAttractedIsLoisLaneToMe (){ 
@@ -40,7 +39,7 @@ function howAttractedIsLoisLaneToMe (){
     return Math.random(( Math.random () * 10 ) + 1 );
 }
 
-    console.log(howAttractedIsLoisLaneToMe()) ;
+console.log(howAttractedIsLoisLaneToMe()) ;
 
 var clarkKent = true;
 var superman = false;
